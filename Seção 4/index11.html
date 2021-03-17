@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção 4 - Aula 11 - Introdução a Funções </title>
+</head>
+<body>
+    <h1>
+        Seção 4 - Aula 11 - Introdução a Funções
+    </h1>
+    <script>
+
+        // função com parametro que retorna valor
+       
+       function somar(num1, num2){
+          // var res = num1 + num2;
+
+           //return res;
+
+           return num1 + num2;
+       }
+
+       var resultado = somar(4, 5);
+       console.log(resultado);
+       //ou
+       console.log(somar(10, 1));
+
+       // função com parametro que não retorna valor
+       function subtrair(num1, num2){
+          console.log(num1 - num2);
+       }
+
+       subtrair(10, 5);
+
+       //função sem parametro que não retorna valor
+       function mensagem(){
+           console.log("Esta e minha mensagem");
+       }
+       mensagem();
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção 4 - Aula 4 - </title>
+</head>
+<body>
+    <h1>Seção 4 - Aula 4 e 8 Operações Matemáticas e Aritiméticos</h1>
+    <script>
+
+        //Operadores Matemáticos
+        var num1 = 42, num2 = 19, nome='Geek';
+
+        console.log(num1, num2, nome);
+
+        //soma 
+
+        var res = num1 + num2;
+
+        console.log("O resultado é:" + res);
+        console.log(nome);
+
+        //CUIDADO - Dica Geek - Operações matemáticas só irão ocorrer quando houver numeros e não strings
+
+        num3 = '39';
+
+        res= num1 + num3;
+        console.log(res);
+
+        //subtração
+        res = num1 - num2;
+
+        console.log("O resultado é:" + res);     
+        
+        //multiplicação
+        res = num1 * num2;
+
+        console.log("O resultado é:" + res);
+
+        //Divisão
+        res = num1/2;
+
+        console.log("O resultado é:" + res);       
+
+        //Módulo - Resto da Divisão
+        res = num2 % 2;
+
+        console.log("O resultado é:" + res);
+
+        //Incremento/Decremento
+        // Isso: num1 = num1 + 8  é igual a :
+        num1 += 8; // Temos também: -=, *=, /=
+        console.log(num1); // Aqui está com o valor de 50
+
+        console.log(num1++);//Imprimi a variável e depois incrementa (50,51)
+        console.log(num1--);//Imprimi a variável e depois decrementa (51,50)
+        console.log(++num1);//Incrementa a variável e depois imprime (51)
+        console.log(--num1);//Decrementa a variável e depois imprime (50)
+
+        //Operadores Aritméticos
+        // Instruções aritméticas e seus resultados
+
+        //numero divido por zero terá o resultado de Infinity
+        console.log(7 / 0);
+
+        //divisão de uma string por um numero - javaScript converte a String para numerico e faz a divisão
+        console.log("42" / 2);
+
+        //uma expressao aritimetica por uma string com letras, resulta em Not a Number (NaN)
+        console.log('Geek' + 3);
+
+        //cuida com expressões simples e resultados que parecem obivios
+        console.log(0.1 + 0.7); //isso é igual a 0.79999999999 e não 0.8
+        
+        //converter numero em String
+
+        console.log((42).toString());
+
+        //fixar a quantidade de casas decimais
+        console.log(13.233335.toFixed(2));
+
+        //classe responsavel por soluções matemáticas : Math
+
+        console.log(Math.PI);
+        console.log(Math.pow(3, 2)); // 3 elevado a 2 potência
+        console.log(Math.sqrt(81)); //raiz quadrada
+
+        //classe que retorna o tipo de dado 
+        console.log(typeof(42)); //number
+        console.log(typeof("Geek")); //string
+
+        //classe que verifica se é um Interiro
+        console.log(Number.isInteger(45));
+        console.log(Number.isInteger("Geek"));
+
+        //converter para binário
+        var valor = 10;
+        console.log(valor.toString(2));
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

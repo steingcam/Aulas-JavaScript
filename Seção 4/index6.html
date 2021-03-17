@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção 4 - Aula 6 e 7 - </title>
+</head>
+<body>
+    <h1>Seção 4 - Aula 6 e 7 - Operadores Lógicos e Relacionais</h1>
+    <script>
+
+        //Operadores Lógicos
+        
+        var curso = 'JavaScript';
+        var legal = true;
+
+        //AND ( E = ambas a expressões são verdadeiras)
+        if (curso === 'JavaScript' && legal === true){
+            console.log("O curso de JavaScript é legal");
+        }else{
+            console.log("O curso não é de JavaScript");
+        }
+
+        // OR (ou = pelo menos uma expressão deve ser verdadeira)
+        if (curso === 'JavaScript' || legal === true){
+            console.log("O curso de JavaScript é legal");
+        }else{
+            console.log("O curso não é de JavaScript ou não é legal");
+        }
+
+        //NOT (quando queremos fazer uma negação ou verificar se algo não é como esperado)
+        if (curso != 'JavaScript'){
+            console.log("O curso não é de JavaScript")
+        }else{
+            console.log("O curso é de JavaScript");
+        }
+
+
+
+        // Operadores Relacionais - Dessa expressão sai um resultado booleano
+
+        // Os mais comuns são:
+        /*
+        Igual a ==
+        Diferente de !=
+        Maior que >
+        Menor que <
+        Maior ou igual a >=
+        Menor ou igual a <=
+
+        Igual e do mesmo tipo que ===
+        Diferente e de outro tipo que !==
+        */
+
+        var n1 = 54, n2 = 78;
+
+        console.log(n1 == n2);//false
+        console.log(n1 != n2);//true
+        console.log(n1 > n2);//false
+        console.log(n1 < n2);//true
+        console.log(n1 >= n2);//false
+        console.log(n1 <= n2);//true
+        console.log(n1 === n2);//false
+        console.log(n1 !== n2);//true
+
+    </script>
+    
+</body>
+</html>

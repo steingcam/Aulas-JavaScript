@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção 4 - Aula 12 - Trabalhando com intervalos e timeout </title>
+</head>
+<body>
+    <h1>
+        Seção 4 - Aula 12 - Trabalhando com intervalos e timeout
+    </h1>
+    <script>
+
+        // função setInterval executa a função de tempos em tempos, atraves de um intervalo definido
+        // esse intervalo de tempo deve estar em milisegundos
+
+        function escrever(){
+            console.log('Geek University');
+        }
+        setInterval(escrever, 1000); // 1000 milisegundos é igual a 1 segundo
+
+        //Timeout - Função para aplicar um atraso na execução de uma função
+        setTimeout(escrever, 3000);
+        
+
+    </script>
+</body>
+</html>
