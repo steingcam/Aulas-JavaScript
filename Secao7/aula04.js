@@ -1,5 +1,6 @@
 /*
    Declarando Atributos - Para criar atributos usa-se o método constructor (que nada mais é do que uma classe)
+   Em JavaScript os atributos são todos públicos
 */
 
 class Pessoa{
